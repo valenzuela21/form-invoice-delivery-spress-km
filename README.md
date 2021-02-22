@@ -1,13 +1,7 @@
 # Delivery Form Km Plugin Wordpress 
 
 Form delivery spress plugin wordpress for km  with google maps distance
-
-<img
-src=“screenshot/image_1.jpg”
-raw=true
-alt=“form-delivery-wordpress”
-style=“margin: 10px;”
-/>
+![alt-text](https://github.com/valenzuela21/form-domimerk-delivery-espress/screenshot/image_1.png " WP Reactivate - WordPress React Boilerplate")
 
 
 ## webpack.dev.js
