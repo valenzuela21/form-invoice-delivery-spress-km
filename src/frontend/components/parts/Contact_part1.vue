@@ -92,7 +92,7 @@
     import "@/frontend/components/puente";
     import {puente} from "frontend/components/puente";
     import Swal from 'sweetalert2'
-    import Params_Object from "frontend/components/parts/params";
+    import Params_Object from '@/frontend/components/parts/params';
 
     const data_city = Params_Object.municipaly;
 

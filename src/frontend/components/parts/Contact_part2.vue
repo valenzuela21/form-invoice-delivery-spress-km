@@ -1,15 +1,6 @@
 <template>
     <div v-show="success" id="app" class="form-delivery container">
         <section class="container-delivery">
-            <div v-show="loader" class="loader-delivery">
-                <div class="loader-general">
-                    <div class="lds-ripple">
-                        <div></div>
-                        <div></div>
-                    </div>
-                    <p>Procesando...</p>
-                </div>
-            </div>
             <div v-if="!this.thank">
                 <div class="row">
                     <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
@@ -99,6 +90,15 @@
                 <Thank/>
             </div>
         </section>
+        <div v-show="loader" class="loader-delivery">
+            <div class="loader-general">
+                <div class="lds-ripple">
+                    <div></div>
+                    <div></div>
+                </div>
+                <p>Procesando...</p>
+            </div>
+        </div>
     </div>
 </template>
 

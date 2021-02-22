@@ -29,7 +29,7 @@ class AssetsDomimerk {
 
     public function style_script_css_register(){
         // Register the script
-        wp_enqueue_script('script_form_delivery', plugins_url('../../src/frontend/components/parts/params.js', __FILE__), array(), 1.0, true );
+        wp_enqueue_script('script_form_delivery', plugins_url('./../src/frontend/components/parts/params.js', __FILE__), array(), 1.0, true );
         // Opcions Admin
         $xbox = get_option( 'form_cotiza_domimmerk' );
         $municipality = $xbox['municipality'];
