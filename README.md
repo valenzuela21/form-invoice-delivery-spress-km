@@ -2,6 +2,14 @@
 
 Form delivery spress plugin wordpress for km  with google maps distance
 
+<img
+src=“screenshot/image_1.jpg”
+raw=true
+alt=“form-delivery-wordpress”
+style=“margin: 10px;”
+/>
+
+
 ## webpack.dev.js
 
 - Modify the proxy field by the development url
